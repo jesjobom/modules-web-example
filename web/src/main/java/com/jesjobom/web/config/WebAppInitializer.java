@@ -11,9 +11,11 @@ import org.springframework.web.servlet.DispatcherServlet;
 /**
  * Configuração do contexto da aplicação.
  * 
- * geralmente é feito através do web.xml
+ * Geralmente é feito através do web.xml, mas quis testar essa outra funcionalidade
+ * do Servlet 3.0+. =)
  *
  * @author jesjobom
+ * @see https://samerabdelkafi.wordpress.com/2014/08/03/spring-mvc-full-java-based-config/
  */
 public class WebAppInitializer implements WebApplicationInitializer {
 
