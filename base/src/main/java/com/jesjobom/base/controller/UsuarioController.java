@@ -11,14 +11,23 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
- * Controlador base para usuários
- *
+ * Controlador base para usuários.<br/>
+ * 
+ * Objetiva a demonstração da especialização de controlador (de mapeamento de 
+ * requisição) e da especialização de interface injetável através de múltiplas
+ * implementações.
+ * 
  * @author jesjobom
  */
 @Controller
 @RequestMapping("/usuario")
 public class UsuarioController {
 	
+	/**
+	 * Nesta implementação do controlador a injeção do manager é feita pela 
+	 * implementação específica da interface, ou seja, outra implementação 
+	 * da mesma interface jamais será usada.
+	 */
 	@Autowired
 	private UsuarioManagerBaseImpl usuarioManagerBaseImpl;
 	

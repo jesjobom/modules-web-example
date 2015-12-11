@@ -9,4 +9,9 @@
 			<img src="imagens/icon-user.png" />Usuarios
 		</a>
 	</li>
+	<li>
+		<a href="data/" title="Menu do base. Obtenção da data atual implementado no Base e sobrescrito no Web.">
+			<img src="imagens/icon-date.png" />Data Atual
+		</a>
+	</li>
 </ul>

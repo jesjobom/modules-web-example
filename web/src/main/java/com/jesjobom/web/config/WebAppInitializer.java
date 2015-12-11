@@ -9,6 +9,9 @@ import org.springframework.web.context.support.AnnotationConfigWebApplicationCon
 import org.springframework.web.servlet.DispatcherServlet;
 
 /**
+ * Configuração do contexto da aplicação.
+ * 
+ * geralmente é feito através do web.xml
  *
  * @author jesjobom
  */

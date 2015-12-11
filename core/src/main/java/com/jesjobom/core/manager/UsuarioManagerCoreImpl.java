@@ -8,9 +8,12 @@ import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 /**
- * Implementação core do gerenciamento de usuários
- *
- * @author Jairton Junior
+ * Implementação core do gerenciamento de usuários.
+ * 
+ * Por estar anotado com @Primary, será a implementação injetada em atributos 
+ * definidos pela interface UsuarioManager.
+ * 
+ * @author jesjobom
  */
 @Primary
 @Component
